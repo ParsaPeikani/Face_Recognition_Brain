@@ -44,10 +44,10 @@ function Particle() {
                     },
                     modes: {
                       push: {
-                        quantity: 18,
+                        quantity: 2,
                       },
                       repulse: {
-                        distance: 300,
+                        distance: 100,
                         duration: 0.7,
                       },
                     },
@@ -79,7 +79,7 @@ function Particle() {
                     number: {
                       density: {
                         enable: true,
-                        area: 800,
+                        area: 1800,
                       },
                       value: 80,
                     },
