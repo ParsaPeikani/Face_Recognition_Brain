@@ -115,9 +115,8 @@ class App extends Component {
       <div className="App">
         <Particle />
         <Navigation onRouteChange={this.onRouteChange}/>
-        { this.state.route === 'signin' 
-          ? <Signin onRouteChange={this.onRouteChange} />
-          : <div>
+        { this.state.route === 'home' 
+          ? <div>
               <Logo />
               <Rank />
               <ImageLinkForm 
@@ -126,6 +125,12 @@ class App extends Component {
               />
               <FaceRecognition box={this.state.box} imageUrl={this.state.imageUrl}/>
             </div>
+          : (
+            this.state.route === 'signin'
+            ? <Signin onRouteChange={this.onRouteChange} />
+            : <Register onRouteChange={this.onRouteChange}/>
+          )
+          
         }
       </div>
     );

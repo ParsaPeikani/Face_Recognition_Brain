@@ -7,7 +7,7 @@ const Register = ({ onRouteChange }) => {
             <main className="pa4 black-80">
                 <form className="measure">
                     <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-                        <legend className="f1 fw6 ph0 mh0" style={{ color: 'yellow'}}>Sign In</legend>
+                        <legend className="f1 fw6 ph0 mh0" style={{ color: 'yellow'}}>Register</legend>
                         <div className="mt3">
                             <label className="db fw6 lh-copy f6" for="naem" style={{ color: 'yellow'}}>Name</label>
                             <input className="pa2 input-reset ba bg-transparent hover-bg-#2F3C7E hover-red w-100" type="text" name="name"  id="name" />
@@ -26,7 +26,7 @@ const Register = ({ onRouteChange }) => {
                             onClick={() => onRouteChange('home')}
                             className="b ph3 pv2 input-reset ba b--yellow bg-transparent grow pointer f6 dib" 
                             type="submit" 
-                            value="Sign in" style={{ color: 'yellow'}}/>
+                            value="Register" style={{ color: 'yellow'}}/>
                     </div>
                 </form>
             </main>
