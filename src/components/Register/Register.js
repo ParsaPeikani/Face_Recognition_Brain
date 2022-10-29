@@ -49,7 +49,7 @@ class Register extends React.Component {
                         <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
                             <legend className="f1 fw6 ph0 mh0" style={{ color: 'yellow'}}>Register</legend>
                             <div className="mt3">
-                                <label className="db fw6 lh-copy f6" htmlFor="naem" style={{ color: 'yellow'}}>Name</label>
+                                <label className="db fw6 lh-copy f6" htmlFor="name" style={{ color: 'yellow'}}>Name</label>
                                 <input 
                                     className="pa2 input-reset ba bg-transparent hover-bg-#2F3C7E red w-100" 
                                     type="text" 
