@@ -1,4 +1,5 @@
 import React from 'react';
+import './Signin.css';
 
 
 class Signin extends React.Component {
@@ -46,7 +47,8 @@ class Signin extends React.Component {
                             <div className="mt3">
                                 <label className="db fw6 lh-copy f6" htmlFor="email-address" style={{ color: 'yellow'}}>Email</label>
                                 <input 
-                                    className="pa2 input-reset ba bg-transparent red w-100" 
+                                    style={{ color: 'yellow' }}
+                                    className="pa2 input-reset ba bg-transparent red w-100 hello" 
                                     type="email" 
                                     name="email-address"  
                                     id="email-address" 
