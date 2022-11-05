@@ -17,6 +17,7 @@
 }
 
 .footer {
+  color: white;
   display:flex;
   background-color: transparent;
   position: fixed;
@@ -25,9 +26,15 @@
   right: 0;
   height: 30px;
   width: 100%;
-  border-top: 1px solid white;
+  box-shadow: 0 -5px 6px rgba(0,0,0,0.5);
   justify-content:center;
   align-items:center;
+}
+
+.tag {
+  color: #FFFF00;
+  text-decoration: none;
+  white-space: pre;
 }
 
 

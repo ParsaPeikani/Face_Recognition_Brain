@@ -178,6 +178,12 @@ class App extends Component {
           )
           
         }
+      <footer className="footer" >
+          Made with   
+          <img id='inputimage' alt='' src="https://www.freepnglogos.com/uploads/heart-png/emoji-heart-33.png" width="25px" height="25px" />
+          by 
+          <a className="tag" href="https://splendorous-frangipane-a72741.netlify.app/" target="_blank" rel="noreferrer" > Parsa </a>
+      </footer>
       </div>
     );
   }
