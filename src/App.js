@@ -60,7 +60,6 @@ class App extends Component {
           style={{top: topRow, right: rightCol, bottom: bottomRow, left: leftCol}}>
         </div>
       );
-      console.log(faceDivs);
     }
     return faceDivs;
   }
@@ -159,6 +158,7 @@ class App extends Component {
               <Rank 
                 name={this.state.user.name}
                 entries={this.state.user.entries}
+                number = {this.state.boxes.length}
               />
               <ImageLinkForm 
                 onInputChange={this.onInputChange} 
