@@ -47,7 +47,7 @@ function Particle() {
                         quantity: 2,
                       },
                       repulse: {
-                        distance: 100,
+                        distance: 250,
                         duration: 0.7,
                       },
                     },
@@ -79,7 +79,7 @@ function Particle() {
                     number: {
                       density: {
                         enable: true,
-                        area: 1800,
+                        area: 1200,
                       },
                       value: 80,
                     },
