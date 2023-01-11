@@ -55,7 +55,7 @@ class Signin extends React.Component {
                 </label>
                 <input
                   style={{ color: "yellow" }}
-                  className="pa2 input-reset ba bg-transparent red w-100 hello"
+                  className="pa2 input-reset ba bg-transparent yellow w-100 hello"
                   type="email"
                   name="email-address"
                   id="email-address"
@@ -71,7 +71,7 @@ class Signin extends React.Component {
                   Password
                 </label>
                 <input
-                  className="b pa2 input-reset ba bg-transparent hover-bg-#2F3C7E red w-100"
+                  className="b pa2 input-reset ba bg-transparent hover-bg-#2F3C7 yellow w-100"
                   type="password"
                   name="password"
                   id="password"
