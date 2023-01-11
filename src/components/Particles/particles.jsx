@@ -25,7 +25,7 @@ function Particle() {
       options={{
         background: {
           color: {
-            value: "#2F3C7E",
+            value: "#000072",
           },
         },
         fpsLimit: 120,
@@ -43,7 +43,7 @@ function Particle() {
           },
           modes: {
             push: {
-              quantity: 12,
+              quantity: 6,
             },
             repulse: {
               distance: 250,
@@ -53,14 +53,14 @@ function Particle() {
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: "#000072",
           },
           links: {
-            color: "#FFA500",
+            color: "#FFFF00",
             distance: 150,
             enable: true,
             opacity: 1,
-            width: 3,
+            width: 6,
           },
           collisions: {
             enable: false,

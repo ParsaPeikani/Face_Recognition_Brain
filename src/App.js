@@ -191,7 +191,7 @@ class App extends Component {
           <img
             id="inputimage"
             alt=""
-            src="https://www.freepnglogos.com/uploads/heart-png/emoji-heart-33.png"
+            src="https://cdn-icons-png.flaticon.com/512/1216/1216649.png"
             width="25px"
             height="25px"
           />

@@ -1,14 +1,14 @@
 .text {
-    justify-content: space-between;
-    color: #FFFF00;
-    font-size: 60px;
+  justify-content: space-between;
+  color: #ffff00;
+  font-size: 60px;
 }
 
 .number {
-    color: #000000;
-    font-size: 60px;
+  color: red;
+  font-size: 60px;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }

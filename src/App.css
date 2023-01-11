@@ -9,7 +9,7 @@
 
 .bounding-box {
   position: absolute;
-  box-shadow: 0 0 0 3px #FFFF00 inset;
+  box-shadow: 0 0 0 3px #ffff00 inset;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -17,8 +17,8 @@
 }
 
 .footer {
-  color: white;
-  display:flex;
+  color: yellow;
+  display: flex;
   background-color: transparent;
   position: fixed;
   bottom: 0;
@@ -26,17 +26,13 @@
   right: 0;
   height: 30px;
   width: 100%;
-  box-shadow: 0 -5px 6px rgba(0,0,0,0.5);
-  justify-content:center;
-  align-items:center;
+  box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
 }
 
 .tag {
-  color: #FFFF00;
+  color: #add8e6;
   text-decoration: none;
   white-space: pre;
 }
-
-
-
-
